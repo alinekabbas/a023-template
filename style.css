@@ -2,3 +2,68 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid darkgray;
+    background-color: darkgreen;
+    color: white;
+}
+
+main{
+    background-color:azure;
+    flex-grow: 1;
+}
+
+/* section{
+    border: 5px solid black;
+    display: flex;
+    width: 100px;
+} */
+
+#central{
+    border: 5px solid black;
+    display: flex;
+    width: 99vw;
+    height: 80vw;
+}
+
+#amarelo{
+    background-color: yellow;
+}
+
+#branco{
+    background-color: white;
+    flex-grow: 1;
+}
+
+#azul{
+    background-color: darkblue;
+}
+
+footer{
+    background-color: lightgreen;
+}
+
+#imagem{
+    display: flex;
+    gap: 80px;
+    flex-wrap:wrap;
+}
+
+figure{
+    border: 1px solid brown;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 16px;
+}
